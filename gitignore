@@ -1,0 +1,53 @@
+# ============================================================
+#  .gitignore — Envío Masivo de Correos
+# ============================================================
+
+# --- Datos reales (NO subir información de personas) ---
+# Carpeta sugerida para guardar tus hojas con datos reales localmente.
+datos/
+privado/
+private/
+
+# Hojas con datos reales (usa estos nombres para que NO se suban).
+*real*.xlsx
+*real*.csv
+*_privado*.xlsx
+*_privado*.csv
+*_datos*.xlsx
+contactos_reales*.xlsx
+Contactos_reales*.xlsx
+
+# Si prefieres ignorar TODAS las hojas y subir solo la plantilla,
+# descomenta las dos líneas siguientes:
+# *.xlsx
+# !Contactos_EnvioMasivo_CC_CCO.xlsx
+
+# --- Credenciales / secretos (por si acaso) ---
+*.key
+*.pem
+.env
+.env.*
+credentials*.json
+client_secret*.json
+service-account*.json
+
+# --- Apps Script (clasp) ---
+.clasp.json
+.clasprc.json
+
+# --- Temporales de Office ---
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores ---
+.vscode/
+.idea/
+*.swp
+*~
