@@ -22,7 +22,7 @@ Herramienta para enviar correos personalizados de forma masiva (*mail merge*) us
 |---|---|
 | `EnvioMasivo_CC_CCO.gs` | Código de Google Apps Script (versión con CC y CCO). |
 | `Contactos_EnvioMasivo_CC_CCO.xlsx` | Hoja plantilla con encabezados y ejemplos ficticios. |
-| `Manual_Envio_Masivo_Correos.docx` | Manual de uso y configuración para usuarios finales. |
+| `Manual_Envio_Masivo_Correos.pdf` | Manual de uso y configuración para usuarios finales. |
 
 ---
 
